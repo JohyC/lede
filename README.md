@@ -1,3 +1,3 @@
-Fork仓库,github actions在线编译仓库！
+Fork lede源码仓库https://github.com/coolsnowwolf/lede； 
 
-lede源码仓库： https://github.com/coolsnowwolf/lede；
+github actions在线编译仓库
