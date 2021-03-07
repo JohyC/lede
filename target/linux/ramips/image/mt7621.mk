@@ -360,7 +360,7 @@ define Device/glinet_gl-mt1300
   IMAGE_SIZE := 32448k
   DEVICE_VENDOR := GL.iNet
   DEVICE_MODEL := GL-MT1300
-  DEVICE_PACKAGES := kmod-mt7615e kmod-mt7615-firmware kmod-usb3
+  DEVICE_PACKAGES := kmod-usb3  kmod-mt7615d_dbdc
 endef
 TARGET_DEVICES += glinet_gl-mt1300
 
@@ -1023,7 +1023,7 @@ TARGET_DEVICES += xiaomi_mir3g
 
 define Device/xiaomi_mir3g-v2
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 16064k
+  IMAGE_SIZE := 14848k
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := Mi Router 3G
   DEVICE_VARIANT := v2
@@ -1193,4 +1193,3 @@ define Device/zio_freezio
 	kmod-usb-ledtrig-usbport wpad-openssl
 endef
 TARGET_DEVICES += zio_freezio
-
